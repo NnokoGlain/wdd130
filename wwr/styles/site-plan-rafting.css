@@ -1,1 +1,31 @@
 @import url(https://fonts.google.com/)
+:root {
+    --primary-color:#E5A4CB;
+    --secondary-color: #fa1427;
+    --accent1-color: #548FC3;
+    --accent2-color: #0459a4;
+
+    --heading-font: 'Croissant One', serif;
+    --paragraph-font: 'poppins', serif;
+  
+    --nav-background-color: #548FC3,
+    --nav-link-color: #0459a4;
+    --nav-hover-link-color: #fa1427;
+    --nav-hover-background-color: #E5A4CB;
+}
+  .body {
+    font-family: var(paragraph-font);
+    width: 960px;
+    padding: 20px;
+}
+  h1, h2, h3, h4{
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+  }
+  header{
+    padding: 20px;
+    background-color: var(--accent1-color);
+  }
+  p {
+    padding: 25px;
+  }
